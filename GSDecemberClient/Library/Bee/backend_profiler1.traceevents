@@ -1,0 +1,479 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1663666142073339, "dur":813, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666142074177, "dur":78, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1663666142074275, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1663666142074300, "dur":839, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1663666142075210, "dur":1005, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666142076215, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143654827, "dur":155, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143654982, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655001, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655005, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655026, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655029, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655036, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655038, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655045, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655048, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655054, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655056, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655063, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655066, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655074, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655076, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655083, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655090, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143655093, "dur":1133, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1663666142075515, "dur":770, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142076285, "dur":1713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142077998, "dur":51420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1663666142129421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142129435, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1663666142130153, "dur":74144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1663666142204300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142204312, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1663666142204875, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1663666142204905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142204912, "dur":108784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1663666142313714, "dur":72787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142386507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142386516, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142387256, "dur":57967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142445229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142445238, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142445857, "dur":25455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142471319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142471329, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142472010, "dur":86189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142558206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142558216, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142558815, "dur":80727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142639548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142639558, "dur":638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142640211, "dur":42828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142683045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142683055, "dur":570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142683640, "dur":47588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142731233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142731264, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142731990, "dur":46955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142778951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142778962, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142779559, "dur":32394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142811959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142811968, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142812577, "dur":51424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142864007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142864017, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142864841, "dur":33591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142898438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142898448, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142899231, "dur":50572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142949807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142949815, "dur":702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142950534, "dur":825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142951365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142951378, "dur":570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142951962, "dur":24196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142976165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666142976175, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666142976782, "dur":282432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666143259220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666143259229, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666143261705, "dur":126894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666143388605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666143388614, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663666143389679, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1663666143389783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666143389935, "dur":509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1663666143390459, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1663666143390475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666143390483, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1663666143391296, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1663666143391312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666143391320, "dur":533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1663666143391866, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1663666143391881, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666143391887, "dur":2295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1663666143394198, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1663666143394213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666143394220, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1663666143395074, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1663666143395182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666143395190, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1663666143395806, "dur":7046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1663666143402858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666143402867, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1663666143403465, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1663666143403481, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666143403487, "dur":550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1663666143404052, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1663666143404067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666143404074, "dur":554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1663666143404642, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1663666143404724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663666143404730, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1663666143405470, "dur":249362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142075841, "dur":539, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142076380, "dur":1606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142077987, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1663666142078055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142078709, "dur":12342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1663666142091072, "dur":16068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1663666142107145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142107152, "dur":23680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1663666142130849, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1663666142130883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142130892, "dur":73942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1663666142204851, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1663666142204888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142204894, "dur":5837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1663666142210743, "dur":167483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":2, "ts":1663666142378230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142378236, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":2, "ts":1663666142379484, "dur":24044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142403535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142403545, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142404314, "dur":112405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142516725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142516756, "dur":734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142517515, "dur":184998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142702519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142702529, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142703342, "dur":55653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142758999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142759006, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142760175, "dur":78228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142838409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142838418, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142839050, "dur":49732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142888788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142888798, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142889514, "dur":25606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142915126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142915136, "dur":598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142915749, "dur":817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142916571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142916581, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142917153, "dur":63161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142980320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666142980330, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666142982081, "dur":109115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666143091202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666143091212, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666143092052, "dur":36878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666143128959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666143128969, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666143129845, "dur":106387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666143236238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666143236249, "dur":702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666143236966, "dur":135251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666143372223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666143372259, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666143373101, "dur":81671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666143454776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663666143454782, "dur":439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663666143455233, "dur":199612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142075664, "dur":643, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142076308, "dur":1641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142077956, "dur":63729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1663666142141689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142204228, "dur":638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1663666142204882, "dur":193710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142398599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142398608, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142399479, "dur":27311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142426796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142426806, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142427410, "dur":54952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142482368, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142482379, "dur":4672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142487069, "dur":147855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142634931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142634941, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142636420, "dur":38587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142675012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142675022, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142675704, "dur":22939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142698647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142698655, "dur":6020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142704692, "dur":53992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142758690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142758699, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142759444, "dur":31701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142791150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142791160, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142791812, "dur":135997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142927817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142927827, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142929107, "dur":24788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142953900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142953910, "dur":599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142954525, "dur":32228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142986759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666142986768, "dur":626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666142987409, "dur":192851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666143180265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666143180276, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666143181175, "dur":246957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666143428138, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663666143428148, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663666143430472, "dur":224355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142075782, "dur":554, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142076336, "dur":1663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142077999, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1663666142078394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142078740, "dur":198843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1663666142277604, "dur":62480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient.exe" }}
+,{ "pid":12345, "tid":4, "ts":1663666142340089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142340097, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient.exe" }}
+,{ "pid":12345, "tid":4, "ts":1663666142341180, "dur":36927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142378114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142378124, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142378743, "dur":58274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142437023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142437032, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142437677, "dur":34310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142471992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142472001, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142473900, "dur":82825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142556731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142556741, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142557396, "dur":172412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142729814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142729824, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142730601, "dur":28411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142759016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142759023, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142759686, "dur":22551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142782242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142782255, "dur":586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142782856, "dur":24934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142807819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142807829, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142808624, "dur":22603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142831233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142831243, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142831803, "dur":26473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142858282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142858291, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142859022, "dur":43862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142902890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142902900, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142903567, "dur":1074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142904647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142904657, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142905395, "dur":44398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142949799, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142949812, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142951502, "dur":29228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142980768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666142980778, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666142981359, "dur":73638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666143055002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666143055012, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666143055888, "dur":91025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666143146921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666143146930, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666143147597, "dur":42761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666143190363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666143190373, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666143191143, "dur":41258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666143232407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666143232417, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666143233144, "dur":135061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666143368211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666143368221, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666143369013, "dur":173186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666143542203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663666143542210, "dur":543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663666143542769, "dur":112071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142075973, "dur":459, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142076432, "dur":1567, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142077999, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1663666142078058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142078963, "dur":20161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1663666142099136, "dur":19187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1663666142118327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142118335, "dur":12551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1663666142130900, "dur":73370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1663666142204275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142204285, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1663666142204927, "dur":97447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142302380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142302442, "dur":3963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142306425, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1663666142306466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142306511, "dur":59570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1663666142366098, "dur":80873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142446977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142446987, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142448443, "dur":32398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142480848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142480857, "dur":6184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142487058, "dur":63347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142550411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142550422, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142551201, "dur":48078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142599286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142599296, "dur":551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142599863, "dur":58124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142658015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142658024, "dur":649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142658688, "dur":46373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142705065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142705074, "dur":590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142705679, "dur":33731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142739416, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142739426, "dur":575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142740016, "dur":128382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142868404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142868413, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142869286, "dur":96205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142965496, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142965506, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142966194, "dur":830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142967029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666142967039, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666142968275, "dur":115295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666143083576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666143083585, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666143084406, "dur":100806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666143185217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666143185226, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666143186026, "dur":215831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666143401863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666143401873, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663666143404139, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1663666143404154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663666143404160, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1663666143404655, "dur":250193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663666142076102, "dur":358, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663666142076460, "dur":1527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663666142077987, "dur":18258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1663666142096249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663666142096264, "dur":495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1663666142096773, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1663666142096802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663666142096809, "dur":108251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1663666142205374, "dur":1210651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663666143416029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663666143416051, "dur":14460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663666143430538, "dur":224293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142076216, "dur":13, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142076230, "dur":1712, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142077956, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1663666142077990, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142078746, "dur":198, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1663666142078948, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1663666142078971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142078990, "dur":50426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1663666142129419, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1663666142129448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142129496, "dur":75305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1663666142204824, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1663666142204862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142204871, "dur":279666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1663666142484576, "dur":42908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142527491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142527502, "dur":11569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142539086, "dur":26897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142565990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142565999, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142568098, "dur":31818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142599920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142599928, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142600638, "dur":34982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142635627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142635636, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142636265, "dur":27507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142663778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142663789, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142664577, "dur":33574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142698157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142698192, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142698895, "dur":23363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142722265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142722274, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142723072, "dur":27524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142750602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142750612, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142751394, "dur":22721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142774121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142774131, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142774927, "dur":34852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142809785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142809794, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142810471, "dur":33860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142844336, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666142844347, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666142844992, "dur":169885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666143014884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666143014894, "dur":636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666143015544, "dur":186979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666143202529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666143202539, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666143203697, "dur":161231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666143364932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666143364941, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666143366672, "dur":285518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666143652212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663666143652218, "dur":2541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663666143654772, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1663666143654774, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142076389, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142076389, "dur":1608, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142077997, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1663666142078351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142079087, "dur":21184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1663666142100285, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1663666142100313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142100319, "dur":229705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1663666142330042, "dur":23192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142353241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142353281, "dur":14284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142367590, "dur":63518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142431115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142431129, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142431872, "dur":44780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142476659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142476670, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142477297, "dur":70853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142548157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142548167, "dur":593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142548775, "dur":50393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142599177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142599187, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142600622, "dur":58093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142658719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142658727, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142659274, "dur":25555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142684835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142684845, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142685631, "dur":54796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142740431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142740439, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142741084, "dur":25490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142766580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142766591, "dur":628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142767233, "dur":31283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142798523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142798533, "dur":585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142799133, "dur":30384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142829523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142829533, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142830280, "dur":41615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142871901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666142871911, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666142872553, "dur":285847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666143158405, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666143158415, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666143159223, "dur":204372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666143363601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666143363610, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666143364500, "dur":52516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666143417021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663666143417029, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Server2020/poisondev/GSDecemberClient_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663666143418137, "dur":236686, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663666143657341, "dur":1873, "ph":"X", "name": "ProfilerWriteOutput" }
+,

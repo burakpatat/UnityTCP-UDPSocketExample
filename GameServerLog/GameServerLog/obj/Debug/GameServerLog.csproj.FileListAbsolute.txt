@@ -1,0 +1,20 @@
+C:\Users\burak patat\Desktop\Server2020\GameServerLog\GameServerLog\bin\Debug\GameServerLog.exe.config
+C:\Users\burak patat\Desktop\Server2020\GameServerLog\GameServerLog\bin\Debug\GameServerLog.exe
+C:\Users\burak patat\Desktop\Server2020\GameServerLog\GameServerLog\bin\Debug\GameServerLog.pdb
+C:\Users\burak patat\Desktop\Server2020\GameServerLog\GameServerLog\obj\Debug\GameServerLog.csprojAssemblyReference.cache
+C:\Users\burak patat\Desktop\Server2020\GameServerLog\GameServerLog\obj\Debug\GameServerLog.Form1.resources
+C:\Users\burak patat\Desktop\Server2020\GameServerLog\GameServerLog\obj\Debug\GameServerLog.Properties.Resources.resources
+C:\Users\burak patat\Desktop\Server2020\GameServerLog\GameServerLog\obj\Debug\GameServerLog.csproj.GenerateResource.cache
+C:\Users\burak patat\Desktop\Server2020\GameServerLog\GameServerLog\obj\Debug\GameServerLog.csproj.CoreCompileInputs.cache
+C:\Users\burak patat\Desktop\Server2020\GameServerLog\GameServerLog\obj\Debug\GameServerLog.exe
+C:\Users\burak patat\Desktop\Server2020\GameServerLog\GameServerLog\obj\Debug\GameServerLog.pdb
+D:\Projects\Server2020\GameServerLog\GameServerLog\bin\Debug\GameServerLog.exe.config
+D:\Projects\Server2020\GameServerLog\GameServerLog\bin\Debug\GameServerLog.exe
+D:\Projects\Server2020\GameServerLog\GameServerLog\bin\Debug\GameServerLog.pdb
+D:\Projects\Server2020\GameServerLog\GameServerLog\obj\Debug\GameServerLog.csproj.AssemblyReference.cache
+D:\Projects\Server2020\GameServerLog\GameServerLog\obj\Debug\GameServerLog.Form1.resources
+D:\Projects\Server2020\GameServerLog\GameServerLog\obj\Debug\GameServerLog.Properties.Resources.resources
+D:\Projects\Server2020\GameServerLog\GameServerLog\obj\Debug\GameServerLog.csproj.GenerateResource.cache
+D:\Projects\Server2020\GameServerLog\GameServerLog\obj\Debug\GameServerLog.csproj.CoreCompileInputs.cache
+D:\Projects\Server2020\GameServerLog\GameServerLog\obj\Debug\GameServerLog.exe
+D:\Projects\Server2020\GameServerLog\GameServerLog\obj\Debug\GameServerLog.pdb
